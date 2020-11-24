@@ -34,6 +34,7 @@
 
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="11"/>
+    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="nos" revision="11-legacy"/>
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nos" revision="11"/>
 
     <!-- frameworks -->
@@ -105,6 +106,7 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="11" />
     <project path="external/exfat" name="android_external_exfat" remote="nos" revision="11" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="11" />
+    <project path="external/json-c" name="android_external_json-c" remote="nos" revision="11" />
     <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nos2" revision="11" />
 
     <!-- OTA -->
@@ -112,6 +114,7 @@
     <!-- packages -->
     <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nos" revision="11" />
     <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nos" revision="11" />
+    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="nos" revision="11" />
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="11" />
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nos" revision="11" />
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="11" />
